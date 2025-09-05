@@ -19,9 +19,6 @@ def parentheses(sequence):
     n_close = sequence.count(")")
     if n_open == n_close :
         return("True")
-    elif n_open > n_close :
-        print(f"{n_open - n_close} more opening parentheses than closing.")
-        return("False")
     else :
-        print(f"{n_close - n_open} more closing parentheses than opening")
         return("False")
+

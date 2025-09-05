@@ -5,7 +5,7 @@ def palindrome(word):
     '''Function that takes a string and returns true or false if the string is a palindrome'''
     #Clean up the characters
     word = word.replace(",", "").replace(".", "").replace(" ", "").replace("?", "").replace("!","").lower()
-    #create new var to hold the reverse of the clean word 
+    #create new var to hold the reverse of the clean word git
     rev_word = word[::-1]
     #Check for equivanence 
     check = rev_word == word 

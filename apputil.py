@@ -19,6 +19,6 @@ def parentheses(sequence):
     n_open = sequence.count("(")
     n_close = sequence.count(")")
     if n_open == n_close :
-        return("true")
+        return(True)
     else:
-        return("false")
+        return(False)

@@ -10,7 +10,6 @@ def palindrome(word):
     #Check for equivanence 
     check = rev_word == word 
     return(check)
-    return(check)
 
 # Exercise 2 
 def parentheses(sequence):
